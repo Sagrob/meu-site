@@ -7,35 +7,41 @@
     <title>Trabalhando com tabelas</title>
 </head>
 <body>
-    <h2>Tabelas com html</h2>
-    <table>
+    <h2>Tabelas html</h2>
+    <table border="4">
         <thead>
         <tr>
-            <td>Matrícula</td>
-            <td>Nome</td>
-            <td>Sobrenome</td>
+            <th colspan="3">Agenda Telefônica</th>
+        </tr>
+        <tr>
+            <th>Aluno:</th>
+            <th>Pais:</th>
+            <th>Telefone:</th>
         </tr>
         </thead>
         <tbody>
             <tr>
-            <td>2023.09.000</td>
-            <td>Caio</td>
-            <td>Bruno</td>
+            <td rowspan="2">Caio Bruno</td>
+            <td>Alessandro</td>
+            <td>(86)9499-0999</td>
         </tr>
         <tr>
-            <td>2023.09.001</td>
-            <td>Guilherme</td>
-            <td>Brito</td>
+            <td>Andreina</td>
+            <td>(86)9532-8976</td>
         </tr>
         <tr>
-            <td>2023.09.002</td>
-            <td>Francisco</td>
-            <td>Lucas</td>
+            <td rowspan="2">Guilherme Brito</td>
+            <td>Marcos</td>
+            <td>(86)9689-7867</td>
+        </tr>
+        <tr>
+            <td>Vanessa</td>
+            <td>(86)9878-9018</td>
         </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td>Fonte: Eu</td>
+                <td colspan="3">Fonte: Cadastro</td>
             </tr>
         </tfoot>
     </table>
