@@ -1,0 +1,41 @@
+:root {
+    --color-1: #5c3355;
+    --color-2: #8f3966;
+    --color-3: #d34c6d;
+    --color-4: #ff827b;
+    --color-5: #ffcb81;
+}
+
+.color1 {color: #5c335e;}
+.color2 {color: #8f3966;}
+.color3 {color: #d34c6d;}
+.color4 {color: #ff827b;}
+.color5 {color: #ffcb81;}
+
+body{
+    font-size: medium;
+    background-color: gray;
+}
+        
+h1, tr, td, th{
+    text-align: center;
+    color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+li:hover{
+    color: aliceblue;
+}
+
+a:visited{
+    color: black;
+}
+
+div.div1{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}

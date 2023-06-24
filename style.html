@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diversos CSSs</title>
+    <link rel="stylesheet" href="">
     <style>
         *{
             margin: 0;
@@ -15,16 +16,6 @@
             text-decoration: none;
             cursor: crosshair
         }
-
-        body{
-            font-size: medium;
-            background-color: gray;
-        }
-        
-        h1{
-            text-align: center;
-            color: black;
-        }
         
         ul{
             padding: 0;
@@ -32,24 +23,61 @@
             border-style: solid;
             text-align: center;
         }
-
-        li:hover{
-            color: aliceblue;
-        }
         li{
             display: inline;
             padding: 0.10em;
         }
     </style>
 </head>
-<body>
+<body style="font-size: 1em; width: 500px; margin: auto;">
     <h1>Utilizando CSSs diferentes</h1>
     <ul style="list-style: none;">
-        <li><a href="#">INLINE</li></a>
+        <li><a target="_blank" href="https://github.com/ericovcosta/meu-site/blob/main/style.html">INLINE</li></a>
         <li><a href="#">EXTERNO</li></a>
         <li><a href="#">INTERNO</li></a>
         <li>exemplo</li>
     </ul>
-    
+    <div class="div1">
+        <table>
+           <thead>
+               <tr>
+                   <th colspan="3">Agenda Telefônica</th>
+               </tr>
+               <tr>
+                   <th>Aluno:</th>
+                   <th>Pais:</th>
+                   <th>Telefone:</th>
+               </tr>
+           </thead>
+           <tbody>
+                   <tr>
+                   <td rowspan="2">Caio Bruno</td>
+                   <td>Alessandro</td>
+                   <td>(86)9499-0999</td>
+               </tr>
+               <tr>
+                   <td>Andreina</td>
+                   <td>(86)9532-8976</td>
+               </tr>
+               <tr>
+                   <td rowspan="2">Guilherme</td>
+                   <td>Marcos</td>
+                   <td>(86)9689-7867</td>
+               </tr>
+               <tr>
+                   <td>Vanessa</td>
+                   <td>(86)9878-9018</td>
+               </tr>
+           </tbody>
+           <tfoot>
+                   <tr>
+                       <td colspan="3">Fonte: Cadastro</td>
+                   </tr>
+           </tfoot>
+       </table>
+   </div>
+   <div id="omg">
+           bruh
+   </div>
 </body>
 </html>
