@@ -1,0 +1,31 @@
+:root{
+    --cor-base:gray;
+    --cor-principal:var(--cor-base);
+    --cor-secundario:
+}
+body{
+    background-color: var(--cor-principal);
+    /*color: aliceblue;*/
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.quadrado{
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-radius:70%;
+    border-width: 4px;
+    text-align: center;
+}
+
+.cor1{
+    background-color: rgb(240, 248, 255,.71);
+}
+.cor2{
+    background-color: aliceblue;
+}
+.cor3{
+    background-color: hsl(208, 100%, 97%);
+}

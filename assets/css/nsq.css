@@ -42,3 +42,8 @@ div.div1{
 table{
     margin: auto;
 }
+footer{
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
