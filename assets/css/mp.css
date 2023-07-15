@@ -5,9 +5,12 @@
 }
 body{
     background-color: var(--cor-principal);
-    /*color: aliceblue;*/
 }
-.flex{
+h2{
+    text-align: center;
+    color: black;
+}
+.flex, .fox{
     display: flex;
     justify-content: space-evenly;
 }
@@ -18,14 +21,15 @@ body{
     border-radius:70%;
     border-width: 4px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cor1, .cor2, .cor3{
+    background-color: aliceblue
 }
 
-.cor1{
-    background-color: rgb(240, 248, 255,.71);
-}
-.cor2{
+.cor4{
     background-color: aliceblue;
-}
-.cor3{
-    background-color: hsl(208, 100%, 97%);
+
 }
