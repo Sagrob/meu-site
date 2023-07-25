@@ -1,0 +1,24 @@
+
+body{
+    background-color: black;
+    background-image: url(https://1.bp.blogspot.com/-OaC2gexF61w/X4sBgiuRr_I/AAAAAAAAcCU/pRypfYn_HvsM17KEVBbiOG6NbzElN0pOwCLcBGAsYHQ/s16000/stars-desktop-wallpaper-HD.png);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    color: aliceblue;
+}
+li{
+    display: inline;
+    padding: 0.30em;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
