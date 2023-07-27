@@ -1,7 +1,7 @@
 
 body{
     background-color: black;
-    background-image: url(https://1.bp.blogspot.com/-OaC2gexF61w/X4sBgiuRr_I/AAAAAAAAcCU/pRypfYn_HvsM17KEVBbiOG6NbzElN0pOwCLcBGAsYHQ/s16000/stars-desktop-wallpaper-HD.png);
+
 }
 footer{
     position: fixed;
@@ -21,4 +21,10 @@ li{
 }
 a{
     color: aliceblue;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
