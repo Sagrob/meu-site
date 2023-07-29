@@ -1,7 +1,14 @@
 
 body{
     background-color: black;
+    background-image: url(https://miro.medium.com/v2/resize:fit:679/1*QjOkG7i-wkqI2-lnJf7B_g.gif);
 
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-family: 'REM', sans-serif;
+    color: aliceblue;
+    text-align: center;
 }
 footer{
     position: fixed;
@@ -21,10 +28,11 @@ li{
 }
 a{
     color: aliceblue;
+    
 }
 .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    display: inline;
+    margin: center;
+    width: 150px;
+    height: 200px;
 }
